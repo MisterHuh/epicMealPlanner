@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css?family=El+Messiri&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Caveat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap");
+
 
 body{
+    font-family: 'El+Messiri', sans-serif;
     background: url("../image/backgroundImage4.jpg") no-repeat bottom center scroll;
     background-size:cover;
 }
 
-.navigationBar {
-    /* margin: 0; */
-    /* font-size: 150%; */
+.empHeader {
+    font-family: 'Julius Sans One','Caveat', sans-serif;
+    font-size: 225%;
+    font-weight: bold;
+    text-shadow: 1px 1px #e8e8e8;
+    background-color: rgba(252, 252, 252, 0.3);
 }
 
 .contentRecipeBar{
@@ -72,15 +80,6 @@ body{
 
 .headerMenuSize{
     font-size: 1.5rem;
-}
-
-.headerTextMenu{
-    display: inline-block;
-    color: black;
-}
-
-.textFont{
-    font-family: 'Nunito Sans', sans-serif;
 }
 
 .textSize{
