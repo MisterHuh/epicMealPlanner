@@ -43,15 +43,15 @@ class App extends React.Component {
       display = (
         <div>
           <Header setView={this.setView} text="Epic Meal Planner"/>
-          <div className="container">
+          {/* <div className="container"> */}
             <div className="row justify-content-center my-5">
               <SearchBar setView={this.setView}/>
             </div>
             <div>
-              <div className="row justify-content-center font-weight-bold textFont homeText">Find a new dish.</div>
-              <div className="row justify-content-center font-weight-bold textFont homeText">Plan your next meal.</div>
+              <div className="row justify-content-center font-weight-bold">Find a new dish.</div>
+              <div className="row justify-content-center font-weight-bold">Plan your next meal.</div>
             </div>
-          </div>
+          {/* </div> */}
         </div>
       );
     } else if (this.state.view.name === "recipes") {

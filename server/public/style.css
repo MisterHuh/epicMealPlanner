@@ -6,15 +6,28 @@
 body{
     font-family: 'El+Messiri', sans-serif;
     background: url("../image/backgroundImage4.jpg") no-repeat bottom center scroll;
-    background-size:cover;
+    background-size: cover;
 }
 
 .empHeader {
     font-family: 'Julius Sans One','Caveat', sans-serif;
     font-size: 225%;
     font-weight: bold;
-    text-shadow: 1px 1px #e8e8e8;
-    background-color: rgba(252, 252, 252, 0.3);
+    /* text-shadow: 1px 1px #e8e8e8; */
+    /* background-color: rgba(252, 252, 252, 0.3); */
+    background-color: rgba(0, 0, 0, 0.3);
+    color: white;
+}
+.searchBarContainer {
+    margin-top: 4%;
+    text-align: center;
+    vertical-align: middle;
+}
+.searchBar {
+    width: 13%;
+}
+.searchIcon {
+    width: 1.6%;
 }
 
 .contentRecipeBar{
@@ -30,11 +43,6 @@ body{
 
 .iconImages{
     display: flex;
-}
-
-.searchIcon{
-    height: 19px;
-    width: 19px;
 }
 
 .propsImage{
@@ -74,10 +82,6 @@ body{
     font-size: 1.75rem;
 }
 
-.homeText{
-    font-size: 2rem;
-}
-
 .headerMenuSize{
     font-size: 1.5rem;
 }
@@ -113,30 +117,22 @@ input[type=checkbox]:checked + label{
     margin: 20px;
 }
 
-.timeServing{
+.timeServing {
     height: 50px;
 }
 
-.propsFood{
+.propsFood {
     height: 150px;
     width: 150px;
     margin-right: 15px;
     margin-left: 15px;
 }
 
-.searchBarContainer{
-    display: inline-block;
-}
-
-.searchBarForm{
-    display: inline-block;
-}
-
-h4{
+h4 {
     text-align: center;
 }
 
-.card-body{
+.card-body {
     font-size: 1rem;
     display: inline-block;
     padding: 1rem 0 0 1rem
