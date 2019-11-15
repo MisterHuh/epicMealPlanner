@@ -1,7 +1,12 @@
 
 body{
     background: url("../image/backgroundImage4.jpg") no-repeat bottom center scroll;
-   background-size:cover;
+    background-size:cover;
+}
+
+.navigationBar {
+    /* margin: 0; */
+    /* font-size: 150%; */
 }
 
 .contentRecipeBar{
@@ -76,7 +81,6 @@ body{
 
 .textFont{
     font-family: 'Nunito Sans', sans-serif;
-    /* font-family: 'Merriweather', serif; */
 }
 
 .textSize{
