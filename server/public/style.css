@@ -29,6 +29,12 @@ body{
 .searchIcon {
     width: 1.6%;
 }
+.landingPageMessage {
+    font-family: 'Caveat', sans-serif;
+    font-size: 375%;
+    color: white;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1), 0px 18px 23px rgba(0,0,0,0.1);
+}
 
 .contentRecipeBar{
     margin: 10px;
