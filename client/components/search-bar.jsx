@@ -30,6 +30,7 @@ class SearchBar extends React.Component {
               value={this.state.value}
               placeholder=" Search"
               onChange={this.handleChange}/>
+
             <img
               className="searchIcon d-inline"
               src="./image/searchIcon.png"

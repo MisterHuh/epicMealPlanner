@@ -8,7 +8,8 @@ body{
     /* background: url("../image/backgroundImage4.jpg") no-repeat bottom center scroll; */
     background: url("https://images.pexels.com/photos/616484/pexels-photo-616484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
     background-size: cover;
-    overflow: hidden;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
 }
 
 .empHeader {
@@ -27,7 +28,10 @@ body{
     width: 13%;
 }
 .searchIcon {
-    width: 1.6%;
+    /* background: url("./image/searchIcon.png"); */
+    width: 1.5%;
+    /* background-color: #6c757d; */
+    /* border: 1px solid #6c757d; */
 }
 .landingPageMessage {
     font-family: 'Caveat', sans-serif;
@@ -46,9 +50,41 @@ body{
 .menuContainer {
     width: 15%;
     color: black;
-    /* background-color: rgb(255,255,255); */
     background-color: #F9F9F9;
 }
+.favorites, .vegan, .keto, .paleo, .dairyFree, .glutenFree {
+    background-size: cover;
+    font-family: 'Julius Sans One','Caveat', sans-serif;
+    text-shadow: 1px 1px white;
+    font-size: 150%;
+    font-weight: bold;
+    border-radius: 5%;
+    border: 2px solid #F9F9F9;
+    transition: all .2s ease-in-out;
+}
+.favorites:hover, .vegan:hover, .keto:hover, .paleo:hover, .dairyFree:hover, .glutenFree:hover {
+    transform: scale(1.08);
+}
+
+.favorites {
+    background-image: url("https://images.pexels.com/photos/299347/pexels-photo-299347.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+}
+.vegan {
+    background-image: url("https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+.keto {
+    background-image: url("https://images.pexels.com/photos/341044/pexels-photo-341044.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+.paleo {
+    background-image: url("https://images.pexels.com/photos/2773942/pexels-photo-2773942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+.glutenFree {
+    background-image: url("https://images.pexels.com/photos/1414651/pexels-photo-1414651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+.dairyFree {
+    background-image: url("https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+}
+
 
 .contentRecipeBar{
     margin: 10px;

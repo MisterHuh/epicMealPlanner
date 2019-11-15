@@ -74,7 +74,7 @@ class ShoppingList extends React.Component {
     return (
       <div>
         <Header setView={this.props.setView} text="Shopping List"/>
-        <div className="container textFont mt-5">
+        <div className="container textFont my-5">
           <div className="row">
             <div className="col">
               <ShoppingListItemForm onSubmit={this.addItem}/>

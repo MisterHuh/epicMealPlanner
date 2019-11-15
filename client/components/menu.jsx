@@ -4,7 +4,7 @@ class Menu extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      showMenu: true
+      showMenu: false
     };
     this.setMenu = this.setMenu.bind(this);
   }
@@ -22,7 +22,6 @@ class Menu extends React.Component {
       return <i className="fas fa-bars headerTextMenu headerMenuSize mx-2 align-self-center" onClick={this.setMenu}></i>
     } else {
       return (
-        // <div className="wrapper headerMenuSize">
           <div className="menuWrapper d-flex column modal py-0 px-0 d-inline-block" style={containerOpacity}>
 
             <div className="menuGreyHalf border border-dark modal-body py-0 px-0" onClick={this.setMenu}></div>
@@ -42,7 +41,6 @@ class Menu extends React.Component {
                 this.setMenu();}}>Shopping List</div>
             </div>
           </div>
-        // </div>
       )
     }
   }
