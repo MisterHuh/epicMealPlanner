@@ -419,7 +419,7 @@ class Calendar extends React.Component {
                       required
                       onChange={this.handleChange}
                       type="text"
-                      className="calendarAddContainer ml-5 mr-2 form-control"
+                      className="calendarAddContainer ml-5 form-control"
                       placeholder="Add a meal"/>
                     </div>
                   <button type="submit" className="calendarAddContainer btn btn-secondary">Add</button>
