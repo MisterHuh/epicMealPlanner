@@ -90,6 +90,10 @@ body{
 }
 .searchResultItemName {
     cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+.searchResultItemName:hover {
+    transform: scale(1.08);
 }
 .rdCard {
     width: 25%;
@@ -143,14 +147,21 @@ body{
     text-align: center;
     cursor: pointer;
 }
-.rdIngredientsContainer {
-    /* text-align: left; */
-}
 .rdIngredientsHeader {
     font-family: 'Julius Sans One','Caveat', sans-serif;
     text-align: left;
     font-size: 130%;
     font-weight: bold;
+}
+.rcWrapper {
+    display: flex;
+    flex-direction: column;
+}
+.rdInstructions {
+    transition: all .2s ease-in-out;
+}
+.rdInstructions:hover {
+    transform: scale(1.08);
 }
 
 

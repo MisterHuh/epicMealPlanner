@@ -2,7 +2,6 @@ import React from "react";
 import Header from "./header";
 
 function Recipes(props) {
-  // let cardStyle = "border border-dark card text-center recipeContainer my-3"
   return (
     <div>
       <Header setView={props.setView} text="Recipes" />
