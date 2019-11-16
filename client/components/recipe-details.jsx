@@ -142,11 +142,7 @@ class RecipeDetails extends React.Component {
 
         <div className="card rdCard">
 
-          <div className='rdLabel mb-2'>{recipe.label}</div>
-
-
-
-
+          <div className='rdLabel mb-4 text-center'>{recipe.label}</div>
 
           <div className="row rdWrapper mb-3">
 
@@ -190,30 +186,18 @@ class RecipeDetails extends React.Component {
               </div>
             </div>    { /* rdButtoNWrapper ends */}
 
-
             </div>      { /* rdSideInfo ends */}
           </div>        { /* rdWrapper ends */}
 
-
-
-
-
-
-
-
-
-
-
-
-
-          <div className="rdIngredients">
-            <div className="text-center mt-2 mb-1">INGREDIENTS</div>
-            <div>
+          <div className="rdIngredientsContainer">
+            <div className="rdIngredientsHeader my-2">INGREDIENTS</div>
+            <div classname="rdIndivIngredients">
               {ingredientLines.map((ingredient, i) => {
-                  return <div key={i}>- {ingredient}</div>;
+                  return <div className="py-1" key={i}>- {ingredient}</div>;
                 })}
             </div>
-            <div className="text-center">
+
+            <div className="rdInstructions mt-3 text-center mt-3">
               <a className="text-secondary font-weight-bold" href={recipe.directions_url} target="_blank">Click for Instructions</a>
             </div>
             {this.showModal(recipe)}
