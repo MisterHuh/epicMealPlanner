@@ -181,6 +181,8 @@ body{
 .modal{
     display: block;
     position: fixed;
+    /* height: auto; */
+    /* width: auto; */
     z-index: 100;
     left: 50%;
     top: 50%;
@@ -328,10 +330,29 @@ table.table-bordered > tbody > tr > th{
   and (max-width: 1366px)
   and (orientation: landscape) {
       .menuContainer {
-          width: 20%;
+        width: 20%;
       }
-
-
+      .searchBarContainer {
+        margin-top: 1%;
+      }
+      .searchBarListContainer, .rdCard, .rcWrapper, .recipesResponsiveness, .calendarButtonWrapper  {
+        margin-bottom: 3%;
+      }
+      .searchBarResultItemContainer {
+        width: 22vw;
+        heighT: 18vh;
+      }
+      .rdSideInfoWrapper {
+        font-size: 95%;
+      }
+      .rdCalendarModalSizing{
+        height: auto;
+        width: auto;
+      }
+      .modalToo {
+        padding: 2%;
+        height: 9rem;
+      }
   }
 
 

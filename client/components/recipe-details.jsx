@@ -42,7 +42,7 @@ class RecipeDetails extends React.Component {
     } else if (this.state.modal === 'calendar') {
       return (
         <div>
-          <div className="modal">
+          <div className="modal rdCalendarModalSizing">
             <div className= "float-right mr-3"
               onClick={() => {
                 this.closeModal();
