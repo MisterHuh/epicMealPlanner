@@ -55,7 +55,7 @@ class RecipesCategoriesList extends React.Component{
       return (
         <div>
           <Header setView={this.props.setView} text={this.props.category}/>
-            <div className="row justify-content-center my-5">
+            <div className="row justify-content-center">
               <SearchBar setView={this.props.setView}/>
             </div>
                 <div className="rcWrapper">
