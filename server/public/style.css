@@ -450,7 +450,57 @@ table.table-bordered > tbody > tr > th{
   and (max-width: 375px)
   and (max-height: 812px)
   and (orientation: portrait) {
-
+    body {
+        background-size: 340%;
+    }
+    .empHeaderContainer {
+        font-size: 155%;
+    }
+    .landingPageMessage {
+        font-size: 300%;
+    }
+    .searchBar {
+        width: 50%;
+    }
+    .searchIcon {
+        width: 6%;
+    }
+    .menuWrapper {
+        width: 104vw;
+    }
+    .menuGreyHalf {
+        width: 40%;
+    }
+    .menuContainer {
+        font-size: 70%;
+    }
+    .recipesResponsiveness {
+        margin-bottom: 5%;
+    }
+    .recipeContainer {
+        width: 80%;
+    }
+    .favorites, .vegan, .keto, .paleo, .dairyFree, .glutenFree {
+        font-size: 120%;
+    }
+    .searchBarResultItemContainer {
+        width: 80vw;
+        heighT: 14vh;
+    }
+    .rdCard {
+        width: 85%;
+    }
+    .rdImgContainer {
+        width: 30vw;
+        padding-left: 4%;
+        margin-top: 3%;
+    }
+    .rdSideInfoWrapper {
+        font-size: 110%;
+    }
+    .modalToo {
+        height: 6.5rem;
+    }
   }
 
 
