@@ -372,11 +372,17 @@ table.table-bordered > tbody > tr > th{
         background-position: center center;
         background-attachment: fixed;
     }
+    .empHeaderContainer {
+        margin-bottom: 7%;
+    }
     .empHeader {
         padding-left: 2%;
     }
     .searchBar {
         width: 30%;
+    }
+    .searchBarContainerFix {
+        margin-bottom: 4%;
     }
     .menuContainer {
         width: 45%;
@@ -424,8 +430,14 @@ table.table-bordered > tbody > tr > th{
         background-position: center center;
         background-attachment: fixed;
     }
+   .empHeaderContainer {
+        margin-bottom: 7%;
+    }
     .empHeader {
         padding-left: 1%;
+    }
+    .searchBarContainerFix {
+        margin-bottom: 2%;
     }
     .searchBar {
         width: 22%;
@@ -463,15 +475,22 @@ table.table-bordered > tbody > tr > th{
     }
     .empHeaderContainer {
         font-size: 155%;
+        margin-bottom: 15%;
     }
     .landingPageMessage {
         font-size: 300%;
+    }
+    .searchBarContainerFix {
+        margin-bottom: 9%;
     }
     .searchBar {
         width: 50%;
     }
     .searchIcon {
         width: 6%;
+    }
+    .searchBarListContainer {
+        margin-top: 10%;
     }
     .menuWrapper {
         width: 104vw;
