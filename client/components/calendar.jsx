@@ -406,9 +406,12 @@ class Calendar extends React.Component {
               <div className="calendarButtonContainer">
                 <button type="submit" onClick={this.changeWeek} className="btn btn-secondary">Prev</button>
               </div>
+
               <div className="calendarButtonContainer">
-                <form className="form-inline text-align-center" onSubmit={this.handleSubmit}>
-                  <div className="form-group calendarAddWrapper">
+
+                <form className="form-inline text-align-center calendarFormWrapper" onSubmit={this.handleSubmit}>
+
+                  <div className="form-group inputInlineFix">
                       <input
                       maxLength="10"
                       required
@@ -419,7 +422,9 @@ class Calendar extends React.Component {
                     </div>
                   <button type="submit" className="calendarAddContainer btn btn-secondary">Add</button>
                 </form>
+
               </div>
+
               <div className="calendarButtonContainer calendarNext">
                 <button type="submit" onClick={this.changeWeek} className="btn btn-secondary">Next</button>
               </div>
