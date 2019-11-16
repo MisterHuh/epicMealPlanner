@@ -191,7 +191,7 @@ class RecipeDetails extends React.Component {
 
           <div className="rdIngredientsContainer">
             <div className="rdIngredientsHeader my-2">INGREDIENTS</div>
-            <div classname="rdIndivIngredients">
+            <div className="rdIndivIngredients">
               {ingredientLines.map((ingredient, i) => {
                   return <div className="py-1" key={i}>- {ingredient}</div>;
                 })}

@@ -363,8 +363,7 @@ table.table-bordered > tbody > tr > th{
   and (max-width: 768px)
   and (orientation: portrait) {
     body {
-        background: url("./image/bgImage.jpeg");
-        background-size: false;
+        background-size: 202%;
     }
     .empHeader {
         padding-left: 2%;
@@ -414,7 +413,33 @@ table.table-bordered > tbody > tr > th{
 @media only screen
   and (max-width: 1024px)
   and (orientation: landscape) {
-
+    body {
+        background-size: 113%;
+    }
+    .empHeader {
+        padding-left: 1%;
+    }
+    .searchBar {
+        width: 22%;
+    }
+    .menuContainer {
+        width: 32%;
+    }
+    .searchBarResultItemContainer {
+        width: 37vw;
+        heighT: 18vh;
+    }
+    .rdCard {
+        width: 37%;
+    }
+    .rdImgContainer {
+        height: 14vh;
+        width: 12vw;
+        padding-left: 2%;
+    }
+    .rdSideInfoWrapper {
+        margin-left: 12%;
+    }
   }
 
 
