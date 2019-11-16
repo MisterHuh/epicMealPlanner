@@ -393,7 +393,7 @@ class Calendar extends React.Component {
       return (
         <div>
           <Header setView={this.props.setView} text={headerText}/>
-          <div className="container textFont mt-5">
+          <div className="container calendarContainer mt-5">
             <CalendarTable
               handleClick={this.handleClick}
               changeView={this.changeView}
@@ -402,7 +402,7 @@ class Calendar extends React.Component {
               date={this.state.date}
               recipeLink={this.recipeLink} />
 
-            <div className="calendarButtonWrapper mt-5">
+            <div className="calendarButtonWrapper">
               <div className="calendarButtonContainer">
                 <button type="submit" onClick={this.changeWeek} className="btn btn-secondary">Prev</button>
               </div>
@@ -417,7 +417,7 @@ class Calendar extends React.Component {
                       required
                       onChange={this.handleChange}
                       type="text"
-                      className="calendarAddContainer ml-5 form-control"
+                      className="calendarAddContainer form-control"
                       placeholder="Add a meal"/>
                     </div>
                   <button type="submit" className="calendarAddContainer btn btn-secondary">Add</button>
