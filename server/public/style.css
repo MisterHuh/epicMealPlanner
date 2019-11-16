@@ -87,10 +87,10 @@ body{
 }
 .searchResultItemName {
     cursor: pointer;
-    transition: all .3s ease-in-out;
+    /* transition: all .3s ease-in-out; */
 }
 .searchResultItemName:hover {
-    transform: scale(1.08);
+    /* transform: scale(1.08); */
 }
 .rdCard {
     width: 25%;
@@ -327,6 +327,10 @@ table.table-bordered > tbody > tr > th{
 @media only screen
   and (max-width: 1366px)
   and (orientation: landscape) {
+      .menuContainer {
+          width: 20%;
+      }
+
 
   }
 
