@@ -91,6 +91,57 @@ body{
 .searchResultItemName {
     cursor: pointer;
 }
+.rdCard {
+    width: 25%;
+    margin: auto;
+    padding: 2%;
+    background-color: #fffffc;
+}
+.rdLabel {
+    font-family: 'Julius Sans One','Caveat', sans-serif;
+    font-weight: bold;
+    font-size: 200%;
+}
+.rdwrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+}
+.rdImgContainer {
+    height: 16vh;
+    width: 8vw;
+}
+.rdImg {
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.rdSideInfoWrapper {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    font-size: 135%;
+}
+.rdSideInfoContainer {
+    padding: 3%;
+    width: 120%;
+}
+.rdButtonWrapper {
+    display: flex;
+    flex-direction: row;
+}
+.rdButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.imgIcon{
+    height: 30px;
+    width: 30px;
+    margin: 3px;
+    text-align: center;
+}
 
 
 .contentRecipeBar{
@@ -98,14 +149,10 @@ body{
     display: inline-block;
 }
 
-.imgIcon{
-    height: 30px;
-    width: 30px;
-    margin: 3px;
-}
+
 
 .iconImages{
-    display: flex;
+    /* display: flex; */
 }
 
 .propsImage{
@@ -145,11 +192,6 @@ body{
     font-size: 1.75rem;
 }
 
-.headerMenuSize{
-    /* font-size: 1.5rem;
-    width: 100vw; */
-}
-
 .textSize{
     font-size: 1.25rem;
 }
@@ -186,10 +228,10 @@ input[type=checkbox]:checked + label{
 }
 
 .propsFood {
-    height: 150px;
-    width: 150px;
-    margin-right: 15px;
-    margin-left: 15px;
+    /* height: 150px; */
+    /* width: 150px; */
+    /* margin-right: 15px; */
+    /* margin-left: 15px; */
 }
 
 h4 {
@@ -215,7 +257,7 @@ h4 {
 }
 
 .recipeDetailsTitle{
-    font-size: 2em;
+    /* font-size: 2em; */
 }
 
 .recipeContainer{

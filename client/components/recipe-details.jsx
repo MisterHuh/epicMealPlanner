@@ -135,67 +135,92 @@ class RecipeDetails extends React.Component {
     return (
       <div>
         <Header setView={this.props.setView} text="Epic Meal Planner"/>
-        <div className="container textFont">
-          <div className="row justify-content-center my-5">
-            <SearchBar setView={this.props.setView}/>
+
+        <div className="row justify-content-center my-5">
+          <SearchBar setView={this.props.setView}/>
+        </div>
+
+        <div className="card rdCard">
+
+          <div className='rdLabel mb-2'>{recipe.label}</div>
+
+
+
+
+
+          <div className="row rdWrapper mb-3">
+
+            <div className="rdImgContainer">
+              <div className="rdImg" style={{backgroundImage: "url("+recipe.image_url+")"}}></div>
+            </div>
+
+            <div className="rdSideInfoWrapper">
+
+              <div className="rdSideInfoContainer">
+                <div className="">Time: {recipe.cooking_time} minutes</div>
+              </div>
+
+              <div className="rdSideInfoContainer">
+               <div className="">Serving size: {recipe.serving_size}</div>
+            </div>
+
+            <div className="rdSideInfoContainer rdButtonWrapper">
+              <div className="rdButtonContainer">
+                <img
+                  className="calendarIcon imgIcon"
+                  src="./image/calendarIcon.png"
+                  alt="First Icon"
+                  onClick={()=>this.handleCalendar()}/>
+              </div>
+
+              <div className="rdButtonContainer m-auto">
+                <img
+                  className="heartIcon imgIcon"
+                  src={jaeTestHeart}
+                  alt="Second Icon"
+                  onClick={()=>this.handleFavorites()}/>
+              </div>
+
+              <div className="rdButtonContainer">
+              <img
+                className="shoppingListIcon imgIcon"
+                onClick= {() => this.handleShoppingList()}
+                src="./image/shoppingList.png"
+                alt="Third Icon"/>
+              </div>
+            </div>    { /* rdButtoNWrapper ends */}
+
+
+            </div>      { /* rdSideInfo ends */}
+          </div>        { /* rdWrapper ends */}
+
+
+
+
+
+
+
+
+
+
+
+
+
+          <div className="rdIngredients">
+            <div className="text-center mt-2 mb-1">INGREDIENTS</div>
+            <div>
+              {ingredientLines.map((ingredient, i) => {
+                  return <div key={i}>- {ingredient}</div>;
+                })}
+            </div>
+            <div className="text-center">
+              <a className="text-secondary font-weight-bold" href={recipe.directions_url} target="_blank">Click for Instructions</a>
+            </div>
+            {this.showModal(recipe)}
           </div>
 
-          <div className="card">
-            <p className='recipeDetailsTitle'>{recipe.label}</p>
-            <div className="row">
-              <div className="propsFood" style={{
-                backgroundImage: "url("+recipe.image_url+")",
-                backgroundSize: "contain",
-                backgroundRepeat:"no-repeat"}}>
-              </div>
-              <div className="timeServing">
-                <div className="mt-2 mb-4">Time: {recipe.cooking_time} minutes</div>
-                <div className="my-4">Serving size: {recipe.serving_size}</div>
-                <div className="mt-4">
-                  <div className="iconImages">
-                    {
-                      <img
-                        className="calendarIcon imgIcon align-bottom mr-4"
-                        src="./image/calendarIcon.png"
-                        alt="First Icon"
-                        onClick={()=>this.handleCalendar()}
-                      />
-                    }
-                    {
-                      <img
-                        className="heartIcon imgIcon align-bottom mr-4"
-                        src={jaeTestHeart}
-                        alt="Second Icon"
-                        onClick={()=>this.handleFavorites()}
-                      />
-                    }
-                    {
-                      <img
-                        className="shoppingListIcon imgIcon align-bottom mr-4"
-                        onClick= {() => this.handleShoppingList()}
-                        src="./image/shoppingList.png"
-                        alt="Third Icon"
-                      />
-                    }
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div>
-              <div className="text-center mt-2 mb-1">INGREDIENTS</div>
-              <div>
-                {
-                  ingredientLines.map((ingredient, i) => {
-                    return <div key={i}>- {ingredient}</div>;
-                  })}
-              </div>
-              <div className="text-center">
-                <a className="text-secondary font-weight-bold" href={recipe.directions_url} target="_blank">Click for Instructions</a>
-              </div>
-              {this.showModal(recipe)}
-            </div>
-          </div>
-        </div>
+        </div>    { /* card ends */}
+
       </div>
     );
   }

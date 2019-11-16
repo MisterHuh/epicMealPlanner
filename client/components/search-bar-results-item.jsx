@@ -3,7 +3,7 @@ import React from "react";
 function SearchBarResultsItem(props) {
   return (
     <div className="searchBarResultItemContainer card m-auto">
-      <div className="row no-gutters flex-grow-1">
+      <div className="row no-gutters flex-grow-1 p-2">
         <div className="col-4">
           <div
             className="card-img-top propsImage"
