@@ -19,7 +19,7 @@ function SearchBarResultsItem(props) {
         <div className="col-8">
           <div className="card-body">
             <div
-              className="card-title font-weight-bold"
+              className="card-title font-weight-bold searchResultItemName"
               onClick={
                 e => {
                 props.setView("recipeDetails", props.recipe, [])

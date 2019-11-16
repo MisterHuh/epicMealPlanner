@@ -88,6 +88,9 @@ body{
     width: 20vw;
     heighT: 12vh;
 }
+.searchResultItemName {
+    cursor: pointer;
+}
 
 
 .contentRecipeBar{

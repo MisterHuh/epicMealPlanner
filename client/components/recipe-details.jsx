@@ -128,13 +128,6 @@ class RecipeDetails extends React.Component {
     let props = this.props
     let ingredientLines = recipe.ingredients.split('\n');
 
-    /* Elaine's heart using this.state.favStatus */
-    const heartColor = {
-      whiteHeart: "./image/whiteHeartIcon.png",
-      redHeart: "./image/redHeart.png"
-    }
-    let image = !this.state.favStatus ? 'whiteHeart' : 'redHeart';
-
     let red = "./image/redHeart.png";
     let white = "./image/whiteHeartIcon.png";
     let jaeTestHeart = recipe.categories === "favorites" ? red : white;
