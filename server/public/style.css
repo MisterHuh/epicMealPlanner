@@ -163,6 +163,24 @@ body{
 .rdInstructions:hover {
     transform: scale(1.08);
 }
+.calendarButtonWrapper {
+    display: flex;
+    flex-direction: row;
+}
+.calendarButtonContainer {
+    width: 33%;
+}
+.calendarAddInputWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calendarAddContainer {
+    text-align: center
+}
+.calendarNext {
+    text-align: right;
+}
 
 
 .contentRecipeBar{

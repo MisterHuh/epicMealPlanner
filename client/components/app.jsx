@@ -15,7 +15,7 @@ class App extends React.Component {
     super(props);
     this.state = {
       view: {
-        name: "home",
+        name: "calendar",
         recipe: {}
       },
       searchTerm: "",

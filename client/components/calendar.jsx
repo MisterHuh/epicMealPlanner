@@ -401,24 +401,38 @@ class Calendar extends React.Component {
               setDate={this.setDate}
               date={this.state.date}
               recipeLink={this.recipeLink} />
-            <form className="form-inline text-align-centerborder" onSubmit={this.handleSubmit}>
-              <div className="form-group mx-sm-3 mb-2 mr-2 ml-5">
-                <input
-                maxLength="15"
-                required
-                onChange={this.handleChange}
-                type="text"
-                className="form-control"
-                placeholder="Add a meal"/>
+
+
+
+
+            <div className="calendarButtonWrapper mt-5">
+
+              <div className="calendarButtonContainer">
+                <button type="submit" onClick={this.changeWeek} className="btn btn-secondary">Prev</button>
               </div>
-              <button type="submit" className="btn btn-secondary mb-2">Add</button>
-            </form>
-            <div className="d-flex justify-content-between">
-              <button type="submit" onClick={this.changeWeek} className="btn btn-secondary mb-2 ml-5 float-left">Prev</button>
-              <span className="mr-5 px-5 float-right"></span>
-              <span className="mr-2 float-right"></span>
-              <button type="submit" onClick={this.changeWeek} className="btn btn-secondary mb-2 mr-5 float-right">Next</button>
+
+              <div className="calendarButtonContainer">
+                <form className="form-inline text-align-center" onSubmit={this.handleSubmit}>
+                  <div className="form-group calendarAddWrapper">
+                      <input
+                      maxLength="10"
+                      required
+                      onChange={this.handleChange}
+                      type="text"
+                      className="calendarAddContainer ml-5 mr-2 form-control"
+                      placeholder="Add a meal"/>
+                    </div>
+                  <button type="submit" className="calendarAddContainer btn btn-secondary">Add</button>
+                </form>
+              </div>
+
+              <div className="calendarButtonContainer calendarNext">
+                <button type="submit" onClick={this.changeWeek} className="btn btn-secondary">Next</button>
+              </div>
             </div>
+
+
+
           </div>
         </div>
       );
