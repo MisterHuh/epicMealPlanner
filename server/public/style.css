@@ -326,267 +326,292 @@ table.table-bordered > tbody > tr > th{
 
  /* ----------- Thinkpad x250 ----------- */
 @media only screen
-  and (max-width: 1366px)
-  and (orientation: landscape) {
-      .empHeaderContainer {
-          margin-bottom: 5%;
-      }
-      .menuContainer {
-        width: 20%;
-      }
-      .searchBarContainer {
-        margin-top: 1%;
-      }
-      .searchBarListContainer, .rdCard, .rcWrapper, .recipesResponsiveness, .calendarButtonWrapper  {
-        margin-bottom: 3%;
-      }
-      .searchBarResultItemContainer {
-        width: 22vw;
-        heighT: 18vh;
-      }
-      .rdSideInfoWrapper {
-        font-size: 95%;
-      }
-      .calendarButtonWrapper {
-          margin-top: 3%;
-      }
-      .rdCalendarModalSizing{
-        /* this fixes calendadrModal sizing */
-        height: auto;
-        width: auto;
-      }
-      .modalToo {
-        padding: 2%;
-        height: 9rem;
-      }
-  }
+    and (max-width: 1366px)
+    and (orientation: landscape) {
+        .empHeaderContainer {
+            margin-bottom: 5%;
+        }
+        .menuContainer {
+            width: 20%;
+        }
+        .searchBarContainer {
+            margin-top: 1%;
+        }
+        .searchBarListContainer, .rdCard, .rcWrapper, .recipesResponsiveness, .calendarButtonWrapper  {
+            margin-bottom: 3%;
+        }
+        .searchBarResultItemContainer {
+            width: 22vw;
+            heighT: 18vh;
+        }
+        .rdSideInfoWrapper {
+            font-size: 95%;
+        }
+        .calendarButtonWrapper {
+            margin-top: 3%;
+        }
+        .rdCalendarModalSizing{
+            /* this fixes calendadrModal sizing */
+            height: auto;
+            width: auto;
+        }
+        .modalToo {
+            padding: 2%;
+            height: 9rem;
+        }
+    }
 
 
   /* ----------- iPad ----------- */
 
 /* Portrait */
 @media only screen
-  and (max-width: 768px)
-  and (orientation: portrait) {
-    body {
-        background-position: center center;
-        background-attachment: fixed;
+    and (max-width: 768px)
+    and (max-height: 1024px)
+    and (orientation: portrait) {
+        body {
+            background-position: center center;
+            background-attachment: fixed;
+        }
+        .empHeaderContainer {
+            margin-bottom: 7%;
+        }
+        .empHeader {
+            padding-left: 2%;
+        }
+        .searchBar {
+            width: 30%;
+        }
+        .searchBarListContainer, .rcWrapper {
+            margin-top: 5%;
+        }
+        .searchBarContainerFix {
+            margin-bottom: 4%;
+        }
+        .menuContainer {
+            width: 45%;
+        }
+        .searchBarResultItemContainer {
+            width: 43vw;
+            heighT: 12vh;
+        }
+        .rdCard {
+            width: 57%;
+        }
+        .rdSideInfoWrapper {
+            margin-left: 8%;
+        }
+        .rdImgContainer {
+            height: 14vh;
+            width: 20vw;
+            padding-left: 4%;
+        }
+        .modalToo {
+            padding: 2%;
+            height: 8rem;
+        }
+        .rdCalendarModalSizing{
+            height: auto;
+            width: auto;
+        }
+        .inputInlineFix {
+            display: inline;
+        }
+        .form-inline {
+            flex-flow: row;
+        }
+        .calendarFormWrapper {
+            display: flex;
+            flex-direction: column;
+        }
     }
-    .empHeaderContainer {
-        margin-bottom: 7%;
-    }
-    .empHeader {
-        padding-left: 2%;
-    }
-    .searchBar {
-        width: 30%;
-    }
-    .searchBarContainerFix {
-        margin-bottom: 4%;
-    }
-    .menuContainer {
-        width: 45%;
-    }
-    .searchBarResultItemContainer {
-        width: 43vw;
-        heighT: 12vh;
-    }
-    .rdCard {
-        width: 57%;
-    }
-    .rdSideInfoWrapper {
-        margin-left: 8%;
-    }
-    .rdImgContainer {
-        height: 14vh;
-        width: 20vw;
-        padding-left: 4%;
-    }
-    .modalToo {
-        padding: 2%;
-        height: 8rem;
-    }
-    .rdCalendarModalSizing{
-        height: auto;
-        width: auto;
-    }
-    .inputInlineFix {
-        display: inline;
-    }
-    .form-inline {
-        flex-flow: row;
-    }
-    .calendarFormWrapper {
-        display: flex;
-        flex-direction: column;
-    }
-  }
 
     /* Landscape */
 @media only screen
-  and (max-width: 1024px)
-  and (orientation: landscape) {
-    body {
-        background-position: center center;
-        background-attachment: fixed;
+    and (max-width: 1024px)
+    and (max-height: 768px)
+    and (orientation: landscape) {
+        body {
+            background-position: center center;
+            background-attachment: fixed;
+        }
+        .empHeaderContainer {
+            margin-bottom: 7%;
+        }
+        .empHeader {
+            padding-left: 1%;
+        }
+        .searchBarListContainer, .rcWrapper {
+            margin-top: 4%;
+        }
+        .searchBarContainerFix {
+            margin-bottom: 2%;
+        }
+        .searchBar {
+            width: 22%;
+        }
+        .menuContainer {
+            width: 32%;
+        }
+        .searchBarResultItemContainer {
+            width: 37vw;
+            heighT: 18vh;
+        }
+        .rdCard {
+            width: 37%;
+        }
+        .rdImgContainer {
+            height: 14vh;
+            width: 12vw;
+            padding-left: 2%;
+        }
+        .rdSideInfoWrapper {
+            margin-left: 12%;
+        }
     }
-   .empHeaderContainer {
-        margin-bottom: 7%;
-    }
-    .empHeader {
-        padding-left: 1%;
-    }
-    .searchBarContainerFix {
-        margin-bottom: 2%;
-    }
-    .searchBar {
-        width: 22%;
-    }
-    .menuContainer {
-        width: 32%;
-    }
-    .searchBarResultItemContainer {
-        width: 37vw;
-        heighT: 18vh;
-    }
-    .rdCard {
-        width: 37%;
-    }
-    .rdImgContainer {
-        height: 14vh;
-        width: 12vw;
-        padding-left: 2%;
-    }
-    .rdSideInfoWrapper {
-        margin-left: 12%;
-    }
-  }
 
 
   /* ----------- iPhone X ----------- */
 
 /* Portrait */
 @media only screen
-  and (max-width: 375px)
-  and (max-height: 812px)
-  and (orientation: portrait) {
-    body {
-        /* background-size: 340%; */
+    and (max-width: 375px)
+    and (max-height: 812px)
+    and (orientation: portrait) {
+        body {
+            /* overflow: hidden; */
+            /* height: 100%; */
+            /* width: 100%; */
+            /* background-size: 100% 100%; */
+            /* position: fixed; */
+        }
+        .empHeaderContainer {
+            font-size: 155%;
+            margin-bottom: 15%;
+        }
+        .landingPageMessage {
+            font-size: 300%;
+        }
+        .searchBarContainerFix {
+            margin-bottom: 9%;
+        }
+        .searchBar {
+            width: 50%;
+        }
+        .searchIcon {
+            width: 6%;
+        }
+        .searchBarListContainer {
+            margin-top: 10%;
+        }
+        .menuWrapper {
+            width: 104vw;
+        }
+        .menuGreyHalf {
+            width: 40%;
+        }
+        .menuContainer {
+            font-size: 70%;
+        }
+        .recipesResponsiveness {
+            margin-bottom: 5%;
+        }
+        .recipeContainer {
+            width: 80%;
+        }
+        .favorites, .vegan, .keto, .paleo, .dairyFree, .glutenFree {
+            font-size: 120%;
+        }
+        .searchBarResultItemContainer {
+            width: 80vw;
+            heighT: 14vh;
+        }
+        .rdCard {
+            width: 85%;
+        }
+        .rdImgContainer {
+            width: 30vw;
+            padding-left: 4%;
+            margin-top: 3%;
+        }
+        .rdSideInfoWrapper {
+            font-size: 110%;
+        }
+        .modalToo {
+            height: 6.5rem;
+        }
+        .rcWrapper {
+            margin-top: 10%;
+        }
     }
-    .empHeaderContainer {
-        font-size: 155%;
-        margin-bottom: 15%;
-    }
-    .landingPageMessage {
-        font-size: 300%;
-    }
-    .searchBarContainerFix {
-        margin-bottom: 9%;
-    }
-    .searchBar {
-        width: 50%;
-    }
-    .searchIcon {
-        width: 6%;
-    }
-    .searchBarListContainer {
-        margin-top: 10%;
-    }
-    .menuWrapper {
-        width: 104vw;
-    }
-    .menuGreyHalf {
-        width: 40%;
-    }
-    .menuContainer {
-        font-size: 70%;
-    }
-    .recipesResponsiveness {
-        margin-bottom: 5%;
-    }
-    .recipeContainer {
-        width: 80%;
-    }
-    .favorites, .vegan, .keto, .paleo, .dairyFree, .glutenFree {
-        font-size: 120%;
-    }
-    .searchBarResultItemContainer {
-        width: 80vw;
-        heighT: 14vh;
-    }
-    .rdCard {
-        width: 85%;
-    }
-    .rdImgContainer {
-        width: 30vw;
-        padding-left: 4%;
-        margin-top: 3%;
-    }
-    .rdSideInfoWrapper {
-        font-size: 110%;
-    }
-    .modalToo {
-        height: 6.5rem;
-    }
-  }
 
 
     /* Landscape */
 @media only screen
-  and (max-width: 812px)
-  and (max-height: 375px)
-  and (orientation: landscape) {
-    .empHeaderContainer {
-        font-size: 215%;
+    and (max-width: 812px)
+    and (max-height: 375px)
+    and (orientation: landscape) {
+        .empHeaderContainer {
+            font-size: 215%;
+            margin-bottom: 6;
+        }
+        .landingPageMessage {
+            font-size: 300%;
+        }
+        .searchBarContainerFix {
+            margin-bottom: 0%;
+        }
+        .searchBarResultItemContainer {
+            heighT: 30vh;
+        }
+        .rdCard {
+        width: 45%;
+        }
+        .rdImgContainer {
+            height: 25vh;
+            width: 15.5vw;
+            padding-left: 6%;
+            margin-top: 2%;
+        }
+        .modalToo {
+            height: 8rem;
+        }
     }
-    .searchBarResultItemContainer {
-        heighT: 30vh;
-    }
-    .rdCard {
-       width: 45%;
-    }
-    .rdImgContainer {
-        height: 25vh;
-        width: 15.5vw;
-        padding-left: 6%;
-        margin-top: 2%;
-    }
-    .modalToo {
-        height: 8rem;
-    }
-  }
 
 
     /* ----------- iPhone 6/7/8 ----------- */
 
 /* Portrait */
 @media only screen
-  and (max-width: 375px)
-  and (max-height: 667px)
-  and (orientation: portrait) {
-      .calendarContainer {
-        margin-bottom: 3%;
-      }
-  }
+    and (max-width: 375px)
+    and (max-height: 667px)
+    and (orientation: portrait) {
+        body {
+            overflow: auto;
+        }
+        .calendarContainer {
+            /* margin-bottom: 3%; */
+         }
+    }
 
     /* Landscape */
 @media only screen
-  and (max-width: 667px)
-  and (max-height: 375px)
-  and (orientation: landscape) {
-    .searchBar {
-        width: 30%;
+    and (max-width: 667px)
+    and (max-height: 375px)
+    and (orientation: landscape) {
+        .searchBar {
+            width: 30%;
+        }
+        .searchIcon {
+            width: 3.5%;
+        }
+        .menuGreyHalf {
+            width: 70%;
+        }
+        .menuContainer {
+            font-size: 80%;
+        }
+        .modalToo {
+            height: 7rem;
+        }
     }
-    .searchIcon {
-        width: 3.5%;
-    }
-    .menuGreyHalf {
-        width: 70%;
-    }
-    .menuContainer {
-        font-size: 80%;
-    }
-    .modalToo {
-        height: 7rem;
-    }
-  }
