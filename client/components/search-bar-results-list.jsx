@@ -55,15 +55,15 @@ class SearchBarResultsList extends React.Component {
       )
     } else {
       return (
+
       <div>
+
         <Header setView={this.props.setView} text="Epic Meal Planner"/>
-        <div className="container textFont">
           <div className="row justify-content-center my-5">
             <SearchBar setView={this.props.setView}/>
           </div>
-          <div>
-            <section className="section">
-              <div className="row">
+
+          <div className="row searchBarListContainer">
                 {this.state.list.map((recipe, x) => {
                   if (x < 5) {
                     return (
@@ -77,10 +77,8 @@ class SearchBarResultsList extends React.Component {
                     );
                   }
                 })}
-              </div>
-            </section>
           </div>
-        </div>
+
       </div>
     );
   }
