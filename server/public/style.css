@@ -4,7 +4,7 @@
 
 body{
     font-family: 'El+Messiri', sans-serif;
-    background: url("https://images.pexels.com/photos/616484/pexels-photo-616484.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background: url("./image/bgImage.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     overflow-x: hidden;
@@ -60,22 +60,22 @@ body{
     transform: scale(1.08);
 }
 .favorites {
-    background-image: url("https://images.pexels.com/photos/299347/pexels-photo-299347.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-image: url("./image/categoriesFavorites.jpeg");
 }
 .vegan {
-    background-image: url("https://images.pexels.com/photos/1640770/pexels-photo-1640770.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("./image/categoriesVegan.jpeg");
 }
 .keto {
-    background-image: url("https://images.pexels.com/photos/341044/pexels-photo-341044.png?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("./image/categoriesKeto.jpeg");
 }
 .paleo {
-    background-image: url("https://images.pexels.com/photos/2773942/pexels-photo-2773942.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("./image/categoriesPaleo.jpg");
 }
 .glutenFree {
-    background-image: url("https://images.pexels.com/photos/1414651/pexels-photo-1414651.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("./image/categoriesGlutenFree.jpeg");
 }
 .dairyFree {
-    background-image: url("https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-image: url("./image/categoriesDairyFree.jpeg");
 }
 .searchBarListContainer {
     display: flex;

@@ -402,15 +402,10 @@ class Calendar extends React.Component {
               date={this.state.date}
               recipeLink={this.recipeLink} />
 
-
-
-
             <div className="calendarButtonWrapper mt-5">
-
               <div className="calendarButtonContainer">
                 <button type="submit" onClick={this.changeWeek} className="btn btn-secondary">Prev</button>
               </div>
-
               <div className="calendarButtonContainer">
                 <form className="form-inline text-align-center" onSubmit={this.handleSubmit}>
                   <div className="form-group calendarAddWrapper">
@@ -425,13 +420,10 @@ class Calendar extends React.Component {
                   <button type="submit" className="calendarAddContainer btn btn-secondary">Add</button>
                 </form>
               </div>
-
               <div className="calendarButtonContainer calendarNext">
                 <button type="submit" onClick={this.changeWeek} className="btn btn-secondary">Next</button>
               </div>
             </div>
-
-
 
           </div>
         </div>
