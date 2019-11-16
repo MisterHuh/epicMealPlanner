@@ -509,23 +509,46 @@ table.table-bordered > tbody > tr > th{
   and (max-width: 812px)
   and (max-height: 375px)
   and (orientation: landscape) {
-
+    .empHeaderContainer {
+        font-size: 215%;
+    }
+    .searchBarResultItemContainer {
+        heighT: 30vh;
+    }
+    .rdCard {
+       width: 45%;
+    }
+    .rdImgContainer {
+        height: 25vh;
+        width: 15.5vw;
+        padding-left: 6%;
+        margin-top: 2%;
+    }
+    .modalToo {
+        height: 8rem;
+    }
   }
 
-
-  /* Portrait */
-@media only screen
-  and (max-width: 375px)
-  and (max-height: 667px)
-  and (orientation: portrait) {
-
-  }
-
+    /* ----------- iPhone 6/7/8 ----------- */
 
     /* Landscape */
 @media only screen
   and (max-width: 667px)
   and (max-height: 375px)
   and (orientation: landscape) {
-
+    .searchBar {
+        width: 30%;
+    }
+    .searchIcon {
+        width: 3.5%;
+    }
+    .menuGreyHalf {
+        width: 70%;
+    }
+    .menuContainer {
+        font-size: 80%;
+    }
+    .modalToo {
+        height: 7rem;
+    }
   }
