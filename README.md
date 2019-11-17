@@ -19,7 +19,7 @@ Please note that this app is still under construction.
 
 ```$ git clone https://github.com/[user_name]/epicMealPlanner.git```
 
-2. Navigate to, and open the `cheersAndBeers` directory, then install the necessary dependencies. 
+2. Navigate to, and open the `epicMealPlanner` directory, then install the necessary dependencies. 
 
 ``` $ npm install ```
 
