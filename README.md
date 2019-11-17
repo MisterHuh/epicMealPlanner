@@ -5,7 +5,7 @@ Cheers & Beers is a full stack e-commerce website that allows users to browse lo
 Please note that this is for demonstration purposes only.
 
 ## [Live Demo](https://http://epicmealplanner.jaehuh.network//)
-![picture](server/public/images/readMe.gif)
+![picture](server/public/image/readMe.gif)
 
 
 ## Getting Started
