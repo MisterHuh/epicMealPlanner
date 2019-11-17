@@ -8,7 +8,7 @@ The group was divided into 3 front-end developers, 2-back-end developers, and 1 
 Please note that this app is still under construction.
 
 ## [Live Demo](https://http://epicmealplanner.jaehuh.network//)
-![readMeGif](server/public/image/readMe.gif)
+![readMeGif](/server/public/image/readMe.gif)
 
 
 ## Getting Started
