@@ -1,8 +1,11 @@
-# Cheers & Beers
+# Epic Meal Planner
 
-Cheers & Beers is a full stack e-commerce website that allows users to browse local craft beers, add them to cart, and place an order.
+Best experienced via mobile, Epic Meal Planner is a one-stop meal-planning application that allows users to search for recipes, save the ingredients to a grocery list, and add the meals to the calendar.
 
-Please note that this is for demonstration purposes only.
+This was a 6-person project with over 1,000+ tracked hours. 
+The group was divided into 3 front-end developers, 2-back-end developers, and 1 project manager.
+
+Please note that this app is still under construction.
 
 ## [Live Demo](https://http://epicmealplanner.jaehuh.network//)
 ![readMeGif](server/public/image/readMe.gif)
